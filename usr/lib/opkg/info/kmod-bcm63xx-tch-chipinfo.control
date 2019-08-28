@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 1595
+Installed-Size: 1594
 Description:  Broadcom Chip Info driver

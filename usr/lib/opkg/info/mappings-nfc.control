@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-nfc
 Section: mappings-nfc
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 885
+Installed-Size: 884
 Description:  Transformer mapping files for nfc

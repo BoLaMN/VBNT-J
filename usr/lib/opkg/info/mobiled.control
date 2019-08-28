@@ -5,5 +5,5 @@ Source: feeds/lte/mobiled
 Section: mobiled
 Maintainer: Technicolor <ltegw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 56721
+Installed-Size: 56745
 Description:  Component to manage 3G and LTE connections

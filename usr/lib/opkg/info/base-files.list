@@ -29,8 +29,8 @@
 /lib/preinit/99_10_run_init
 /etc/opkg/keys/53bad1233d4c98c5
 /sbin/led.sh
-/lib/preinit/50_indicate_regular_preinit
 /etc/iproute2/rt_protos
+/lib/preinit/50_indicate_regular_preinit
 /etc/banner
 /etc/shadow
 /etc/rc.common
@@ -81,8 +81,8 @@
 /etc/profile
 /etc/init.d/sysfixtime
 /etc/TZ
-/lib/functions/service.sh
 /etc/init.d/umount
+/lib/functions/service.sh
 /lib/upgrade/keep.d/base-files-essential
 /etc/init.d/bcm-device-nodes
 /etc/passwd

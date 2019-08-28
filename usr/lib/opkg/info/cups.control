@@ -4,5 +4,5 @@ Depends: libc, libssp, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: feeds/technicolor/cups
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 1838672
+Installed-Size: 1830046
 Description:  Common UNIX Printing System (daemon)

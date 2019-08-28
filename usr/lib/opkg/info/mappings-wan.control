@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-wan
 Section: mappings-wan
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 177656
+Installed-Size: 178757
 Description:  Transformer WAN mapping files.

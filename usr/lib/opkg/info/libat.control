@@ -5,5 +5,5 @@ Source: feeds/lte/libat
 Section: libat
 Maintainer: Technicolor <ltegw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 27094
+Installed-Size: 26832
 Description:  Mobiled AT plugin

@@ -1119,14 +1119,15 @@ X_000E50_ShapingRate = function(mapping, param, value, key)
   binding.config = 'xdsl'
   binding.sectionname = devname
   binding.option = "maxusdatarate"
-  if value == -1 then
-    set_on_uci(binding, "", commitapply)
-    transactions[binding.config] = true
-    return true
-  else
-    set_on_uci(binding, value/1000, commitapply)
-    transactions[binding.config] = true
-    return true
+  local old_value = get_from_uci(binding)
+  local new_value = ""
+  if value ~= -1  then
+      new_value = value/1000
+  end
+  if new_value ~= old_value then
+      set_on_uci(binding, new_value, commitapply)
+      transactions[binding.config] = true
+      return true
   end
 end,
 }

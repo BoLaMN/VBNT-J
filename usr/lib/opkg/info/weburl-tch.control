@@ -5,5 +5,5 @@ Source: feeds/technicolor/weburl-tch
 Section: Firewall
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 3544
+Installed-Size: 3545
 Description:  Technicolor WEB URL Filter for parental control site blocking.

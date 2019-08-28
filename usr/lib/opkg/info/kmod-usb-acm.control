@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 10155
+Installed-Size: 9962
 Description:  Kernel support for USB ACM devices (modems/isdn controllers)

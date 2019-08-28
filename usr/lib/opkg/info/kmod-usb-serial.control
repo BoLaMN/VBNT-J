@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 14665
+Installed-Size: 14607
 Description:  Kernel support for USB-to-Serial converters

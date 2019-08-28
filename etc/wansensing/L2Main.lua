@@ -23,8 +23,8 @@ function M.check(runtime)
     -- check if wan ethernet port is up
     if scripthelpers.l2HasCarrier("eth4") then
         L2 = "ETH"
---        x:set("ethoam", "global", "enable", "0")
---        x:commit("ethoam")
+        x:set("ethoam", "global", "enable", "0")
+        x:commit("ethoam")
     end
 
     -- check if xDSL is up
@@ -32,12 +32,12 @@ function M.check(runtime)
     if mode then
         if match(mode, "ATM") then
             L2 = "ADSL"
---            x:set("ethoam", "global", "enable", "0")
---            x:commit("ethoam")
+            x:set("ethoam", "global", "enable", "0")
+            x:commit("ethoam")
         elseif match(mode, "PTM") then
             L2 = "VDSL"
---            x:set("ethoam", "global", "enable", "1")
---            x:commit("ethoam")
+            x:set("ethoam", "global", "enable", "1")
+            x:commit("ethoam")
         end
     end
     logger:notice("L2Main.lua: check interface PHY type " .. tostring(L2))

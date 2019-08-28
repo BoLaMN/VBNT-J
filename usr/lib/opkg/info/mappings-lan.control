@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-lan
 Section: mappings-lan
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 74166
+Installed-Size: 75798
 Description:  Transformer LAN mapping files.

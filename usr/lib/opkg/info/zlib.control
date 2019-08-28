@@ -6,5 +6,5 @@ License: Zlib
 LicenseFiles: README
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 38365
+Installed-Size: 38421
 Description:  Library implementing the deflate compression method

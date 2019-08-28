@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 2391
+Installed-Size: 2388
 Description:  Broadcom Power Management driver

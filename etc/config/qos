@@ -23,9 +23,6 @@ config label 'DNS'
 config label 'Management'
 	option trafficid '6'
 
-config label 'Geolocation'
-	option trafficid '6'
-
 config label 'Voice'
 	option trafficid '8'
 
@@ -273,10 +270,6 @@ config classify
 config host
 	option target 'DNSGW'
 	option path '/usr/bin/dnsget'
-
-config host
-	option target 'Geolocation'
-	option path '/usr/bin/geolocation'
 
 config classify
 	option target 'DHCP'

@@ -5,5 +5,5 @@ Source: feeds/technicolor/mmdbdtests
 Section: mmdbdtests
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 46122
+Installed-Size: 46125
 Description:  mmdbd test suite

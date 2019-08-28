@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 250
+Installed-Size: 249
 Description:  Kernel support for USB OHCI controllers

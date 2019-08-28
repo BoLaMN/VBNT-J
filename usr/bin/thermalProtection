@@ -43,7 +43,7 @@ local function getTemperature(wifi_radio)
 	end
 	local tmp75_output = temp_file:read("*all")
 	temp_file:close()
-	return string.sub(tmp75_output, 1, 2)
+	return tonumber(tmp75_output) / 1000
 end
 
 -- end of get the temperature

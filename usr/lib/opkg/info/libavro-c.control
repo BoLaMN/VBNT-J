@@ -4,5 +4,5 @@ Depends: libc, libssp, zlib
 Source: feeds/technicolor/wifi-doctor/libavro-c
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 67638
+Installed-Size: 67637
 Description:  Apache Avro is a data serialization system

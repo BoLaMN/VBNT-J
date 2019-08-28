@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-mmpbxd
 Section: mappings-mmpbxd
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 59465
+Installed-Size: 59828
 Description:  Transformer mmpbxd mapping files.

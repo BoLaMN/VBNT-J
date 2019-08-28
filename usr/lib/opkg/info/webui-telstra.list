@@ -5,8 +5,8 @@
 /www/docroot/js/main-telstra-min.js
 /www/docroot/help/xml/Diagnostics0.xml
 /www/docroot/img/dev_pda_s_ticked.gif
-/www/docroot/helpfiles/help_wifi.lp
 /www/snippets/tabs-wifi.lp
+/www/docroot/helpfiles/help_wifi.lp
 /www/docroot/help/xml/Content Sharing0.xml
 /www/docroot/help/xml/Mobile3.xml
 /www/docroot/help/xml/Management2.xml
@@ -25,15 +25,15 @@
 /www/docroot/img/dev_printer.gif
 /www/docroot/help/xml/WAN Services4.xml
 /www/docroot/helpfiles/help_broadband.lp
-/www/docroot/help/xml/Firewall0.xml
 /www/docroot/img/dev_tablet_ticked.gif
 /www/docroot/img/dev_tbox_s.gif
+/www/docroot/help/xml/Firewall0.xml
 /www/docroot/help/xml/Diagnostics1.xml
 /www/docroot/help/xml/Broadband0.xml
 /www/docroot/img/home.png
 /www/docroot/traffic.lp
-/www/docroot/device.lp
 /www/docroot/img/dev_phone_s.gif
+/www/docroot/device.lp
 /www/docroot/img/broadband.png
 /www/docroot/help/xml/Mobile4.xml
 /www/docroot/img/dev_printer_ticked.gif
@@ -59,8 +59,8 @@
 /www/docroot/contentsharing.lp
 /www/docroot/img/dev_phone_ticked.gif
 /www/docroot/img/dev_ipdect.gif
-/www/docroot/img/dev_pda_s.gif
 /www/docroot/helpfiles/help_portforwarding.lp
+/www/docroot/img/dev_pda_s.gif
 /www/docroot/help/xml/Wireless2.xml
 /www/docroot/help/xml/Telephony2.xml
 /www/docroot/img/services.png
@@ -82,8 +82,8 @@
 /www/docroot/help/variables.js
 /www/docroot/img/dev_printer_s_ticked.gif
 /www/docroot/help/xml/Local Network2.xml
-/www/docroot/img/dev_printer_s.gif
 /www/docroot/helpfiles/help_contentsharing.lp
+/www/docroot/img/dev_printer_s.gif
 /www/docroot/help/main.js
 /www/docroot/img/contentsharing-active.png
 /www/snippets/tabs-parental.lp
@@ -92,8 +92,8 @@
 /www/docroot/remoteaccess.lp
 /www/snippets/message.lp
 /www/docroot/img/dev_storage_s.gif
-/www/docroot/img/dev_gs_ticked.gif
 /www/docroot/helpfiles/help_remoteaccess.lp
+/www/docroot/img/dev_gs_ticked.gif
 /www/docroot/img/dev_ipdect_s_ticked.gif
 /www/docroot/help/xml/Wireless4.xml
 /www/docroot/img/dev_tbox_s_ticked.gif
@@ -132,8 +132,8 @@
 /www/docroot/img/dev_tablet.gif
 /www/docroot/img/admin-active.png
 /www/snippets/navbar.lp
-/www/docroot/helpfiles/help_services.lp
 /www/snippets/tabs-services.lp
+/www/docroot/helpfiles/help_services.lp
 /www/docroot/helpfiles/help_tod.lp
 /www/docroot/img/dev_desktop.gif
 /www/docroot/help/xml/WAN Services2.xml
@@ -152,8 +152,8 @@
 /www/lua/hni_helper.lua
 /www/docroot/img/parentalcontrol.png
 /www/docroot/img/dev_ipdect_ticked.gif
-/www/docroot/img/dev_laptop_s_ticked.gif
 /www/docroot/img/status.png
+/www/docroot/img/dev_laptop_s_ticked.gif
 /www/docroot/help/footer.html
 /www/snippets/apply.lp
 /www/docroot/img/dev_phone_s_ticked.gif

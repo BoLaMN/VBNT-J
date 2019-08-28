@@ -6,5 +6,5 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 6056
+Installed-Size: 6055
 Description:  Lua binding for the OpenWrt RPC client

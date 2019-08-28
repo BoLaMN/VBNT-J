@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 1128298
+Installed-Size: 1129494
 Description:  Broadcom ADSL driver

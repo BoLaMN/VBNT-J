@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 36418
+Installed-Size: 36340
 Description:  Broadcom XTM Config driver

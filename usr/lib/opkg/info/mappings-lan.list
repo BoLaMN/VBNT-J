@@ -7,8 +7,8 @@
 /usr/share/transformer/mappings/device2/Hosts.Host.map
 /usr/share/transformer/mappings/igd/LANDevice.WLANConfiguration.map
 /usr/share/transformer/commitapply/dev2_minitr064d.ca
-/usr/share/transformer/mappings/device2/DHCPv6.Server.map
 /usr/share/transformer/commitapply/rpc_tod.ca
+/usr/share/transformer/mappings/device2/DHCPv6.Server.map
 /usr/share/transformer/mappings/bbf/X_000E50_TimeOfDay.Schedule.map
 /usr/share/transformer/mappings/uci/user_friendly_name.map
 /usr/share/transformer/mappings/igd/LANDevice.X_0876FF_ALG.map

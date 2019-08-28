@@ -5,5 +5,5 @@ Source: feeds/custo/conf-xtm
 Section: conf-xtm
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 286
+Installed-Size: 285
 Description:  Configuration for the xtm network devices.

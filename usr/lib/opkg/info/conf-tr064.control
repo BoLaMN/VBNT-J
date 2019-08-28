@@ -5,5 +5,5 @@ Source: feeds/custo/conf-tr064
 Section: conf-tr064
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 705
+Installed-Size: 713
 Description:  Configuration for TR-064.

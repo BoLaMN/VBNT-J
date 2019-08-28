@@ -10,7 +10,7 @@ config configuration 'config1'
         option megLevel '2'
         option ifname 'ptm0'
         option meg 'MEG1'
-        option ccm "1"
+        option ccm "0"
         option CCMinterval "5"
 
 config configuration 'config2'
@@ -19,7 +19,7 @@ config configuration 'config2'
         option megLevel '3'
         option ifname 'ptm0'
         option meg 'MEG2'
-        option ccm "1"
+        option ccm "0"
         option CCMinterval "5"
 
 config configuration 'config3'

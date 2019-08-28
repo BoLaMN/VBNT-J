@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-samba
 Section: mappings-samba
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 628
+Installed-Size: 626
 Description:  Transformer SAMBA mapping files.

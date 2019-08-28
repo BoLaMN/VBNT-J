@@ -6,5 +6,5 @@ License: GPL-2.0
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 8926
+Installed-Size: 8894
 Description:  RTSP Conntrack and NAT netfilter module

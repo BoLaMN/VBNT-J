@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 179655
+Installed-Size: 179381
 Description:  Kernel module for EXT4 filesystem support

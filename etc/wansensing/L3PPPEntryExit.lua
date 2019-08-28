@@ -45,6 +45,7 @@ function M.entry(runtime, l2type)
         --the WAN interface is defined --> create the xtm queues
         os.execute("sleep 1")
         if l2type == 'ADSL' or l2type == 'VDSL' then
+           os.execute("/etc/init.d/ethoam stop")
            os.execute("/etc/init.d/xtm reload")
         end
 
@@ -58,9 +59,9 @@ function M.entry(runtime, l2type)
         conn:call("network.interface.wan", "up", { })
         conn:call("network.interface.wan6", "up", { })
 
---        if l2type == 'VDSL' then
---           os.execute("/etc/init.d/ethoam reload")
---        end
+        if l2type == 'VDSL' then
+           os.execute("/etc/init.d/ethoam reload")
+        end
     end
 
 	os.execute("bs /b/c egress_tm/dir=us,index=0 queue_cfg[0]={queue_id=0,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=1 queue_cfg[0]={queue_id=1,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=2 queue_cfg[0]={queue_id=2,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=3 queue_cfg[0]={queue_id=3,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=4 queue_cfg[0]={queue_id=4,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=5 queue_cfg[0]={queue_id=5,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=6 queue_cfg[0]={queue_id=6,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes};bs /b/c egress_tm/dir=us,index=7 queue_cfg[0]={queue_id=7,drop_threshold=32,weight=0,drop_alg=dt,stat_enable=yes}")

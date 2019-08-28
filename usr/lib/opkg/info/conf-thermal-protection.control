@@ -5,5 +5,5 @@ Source: feeds/custo/conf-thermal-protection
 Section: conf-thermal-protection
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 481
+Installed-Size: 482
 Description:  Configuration for thermal protection.

@@ -30,7 +30,7 @@ config sessionmgr 'assistance'
 config uiconfig 'uidefault'
 	option defaultuser 'admin'
 	option nsplink 'http://www.technicolor.com'
-	option upgradefw '1'
+	option upgradefw '0'
 	option alwaysadvanced '1'
 	list upgradefw_role 'guest'
 

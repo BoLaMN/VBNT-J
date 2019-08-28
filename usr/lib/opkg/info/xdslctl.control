@@ -5,5 +5,5 @@ Source: feeds/technicolor/bcm_userspace
 Section: utils
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 32934
+Installed-Size: 32935
 Description:  Broadcom DSL control

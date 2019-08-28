@@ -5,7 +5,7 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 2112
+Installed-Size: 2110
 Description:  iptables extension for web url filter.
  Matches:
  - weburl

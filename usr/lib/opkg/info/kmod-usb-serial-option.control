@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 11017
+Installed-Size: 10974
 Description:  Kernel support for Option HSDPA modems

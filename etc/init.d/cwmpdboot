@@ -26,7 +26,7 @@ wait_for_voice_up() {
 
 wait_for_wan_up() {
   config_load cwmpd
-  config_get intf cwmpd_config interface wan
+  config_get intf cwmpd_config interface6 wan6
   [ "$intf" == "" ] && return
 
   count=0

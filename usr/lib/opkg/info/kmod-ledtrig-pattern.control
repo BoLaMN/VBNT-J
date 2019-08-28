@@ -5,6 +5,6 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 2433
+Installed-Size: 2430
 Description:  Kernel module that allows LEDs to be configured for
  a specific blink pattern.

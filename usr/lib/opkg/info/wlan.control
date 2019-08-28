@@ -5,5 +5,5 @@ Source: feeds/technicolor/wlan
 Section: wlan
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 384131
+Installed-Size: 384738
 Description:  Technicolor hostapd

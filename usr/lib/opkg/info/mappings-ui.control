@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-ui
 Section: mappings-ui
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 1651
+Installed-Size: 1654
 Description:  Transformer User Interface mapping files.

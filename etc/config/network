@@ -6,4 +6,4 @@ config interface loopback
 	option netmask	255.0.0.0
 
 config globals globals
-	option ula_prefix auto
+#	option ula_prefix auto

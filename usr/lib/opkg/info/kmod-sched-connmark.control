@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 1598
+Installed-Size: 1592
 Description:  Traffic shaper conntrack mark support

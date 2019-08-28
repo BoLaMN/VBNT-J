@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 56560
+Installed-Size: 56725
 Description:  Broadcom Packet Flow driver

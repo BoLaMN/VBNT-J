@@ -56,6 +56,11 @@ local gVIES = post_helper.getValidateInEnumSelect
 local gVCS = post_helper.getValidateCheckboxSwitch()
 local vNES = post_helper.validateNonEmptyString
 local gVP = post_helper.getValidationPassword
+local gVIPIL = post_helper.getValidationIfPropInList
+local gAV = post_helper.getAndValidation
+local gOrV = post_helper.getOrValidation
+local vSIDN = post_helper.validateStringIsDomainName
+local vSIIP = post_helper.validateStringIsIP
 
 local function set_lookup_host(value, object, key)
     object["ddns_lookup_host"] = object["ddns_domain"]
@@ -67,7 +72,7 @@ local qry_valid = {
     ddns_service_name = gVICSPIL(gVIES(ddns_supported_services), "ddns_enabled", {"1"}),
     ddns_username = gVICSPIL(vNES, "ddns_enabled", {"1"}),
     ddns_password = gVP(gVICSPIL(vNES, "ddns_enabled", {"1"})),
-    ddns_domain = gVICSPIL(vNES, "ddns_enabled", {"1"}),
+    ddns_domain = gAV(gOrV(vSIDN, vSIIP), gVIPIL(vNES, "ddns_enabled", {"1"})),
     ddns_lookup_host = set_lookup_host,
 }
 

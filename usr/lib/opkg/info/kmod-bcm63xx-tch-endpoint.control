@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 991370
+Installed-Size: 991377
 Description:  Broadcom Endpoint driver

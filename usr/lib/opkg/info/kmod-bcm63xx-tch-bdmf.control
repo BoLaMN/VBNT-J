@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 75264
+Installed-Size: 75111
 Description:  Broadcom BDMF driver

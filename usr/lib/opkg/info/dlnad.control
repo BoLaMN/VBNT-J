@@ -5,5 +5,5 @@ Source: feeds/technicolor/dlnad
 Section: opt
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 191077
+Installed-Size: 191669
 Description:  DLNA Digital Media Server

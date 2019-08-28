@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 8722
+Installed-Size: 8634
 Description:  Broadcom RDPA GPL driver

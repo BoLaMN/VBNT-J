@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 40703
+Installed-Size: 40667
 Description:  Broadcom VLAN driver

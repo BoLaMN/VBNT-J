@@ -4,5 +4,5 @@ Depends: libc, libssp, libcups, libpng, libjpeg
 Source: feeds/technicolor/cups
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 133493
+Installed-Size: 133448
 Description:  Common UNIX Printing System - Image library

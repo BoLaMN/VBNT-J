@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 10725
+Installed-Size: 10619
 Description:  Broadcom Wireless Forwarding Driver

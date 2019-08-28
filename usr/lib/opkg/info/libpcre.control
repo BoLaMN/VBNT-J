@@ -7,5 +7,5 @@ LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
-Installed-Size: 81326
+Installed-Size: 81369
 Description:  A Perl Compatible Regular Expression library

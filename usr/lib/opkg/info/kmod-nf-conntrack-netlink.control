@@ -5,6 +5,6 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 9061
+Installed-Size: 9063
 Description:  Kernel modules support for a netlink-based connection tracking
  userspace interface

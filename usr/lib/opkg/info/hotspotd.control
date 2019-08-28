@@ -6,5 +6,5 @@ Source: feeds/technicolor/hotspotd
 Section: fon
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 65853
+Installed-Size: 65855
 Description:  FON hotspot daemon

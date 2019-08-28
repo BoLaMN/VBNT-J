@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 76205
+Installed-Size: 76691
 Description:  Broadcom Ethernet driver

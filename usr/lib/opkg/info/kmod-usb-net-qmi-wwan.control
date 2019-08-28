@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 3344
+Installed-Size: 3340
 Description:  QMI WWAN driver for Qualcomm MSM based 3G and LTE modems

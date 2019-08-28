@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-nslookupdiagnostics
 Section: mappings-nslookupdiagnostics
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 10548
+Installed-Size: 10211
 Description:  Transformer NSLookup Diagnostics mapping files.

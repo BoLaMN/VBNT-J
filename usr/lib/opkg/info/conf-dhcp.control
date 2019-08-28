@@ -5,5 +5,5 @@ Source: feeds/custo/conf-dhcp
 Section: conf-dhcp
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 1014
+Installed-Size: 1002
 Description:  Configuration for DNS, DHCPv4 server, DHCPv6(-PD)/RA server & relay.

@@ -6,5 +6,5 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 1543
+Installed-Size: 1550
 Description:  Sierra Wireless Direct-IP support

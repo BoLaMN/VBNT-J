@@ -5,7 +5,7 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 2324
+Installed-Size: 2323
 Description:  Transparent proxy iptables extensions.
  
  Matches:

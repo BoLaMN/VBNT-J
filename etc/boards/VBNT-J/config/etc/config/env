@@ -1,7 +1,7 @@
 config envvars 'var'
 	option company_name 'Technicolor'
 	option prod_friendly_name 'Technicolor DJN2130'
-	option CONF_VERSION 'CRF847'
+	option CONF_VERSION 'CRF913'
 	option provisioning_code 'Telstra'
 	option logfilter 'ALL'
 	option variant_friendly_name 'DJN2130'

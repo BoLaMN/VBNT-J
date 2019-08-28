@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 253
+Installed-Size: 254
 Description:  Kernel support for USB2 (EHCI) controllers

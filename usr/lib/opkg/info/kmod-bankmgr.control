@@ -5,5 +5,5 @@ Source: feeds/technicolor/bankmgr
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 10122
+Installed-Size: 9963
 Description:  Kernel module that provides access to the banktable via a proc interface.

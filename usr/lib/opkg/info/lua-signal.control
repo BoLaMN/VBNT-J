@@ -5,5 +5,5 @@ Source: feeds/technicolor/lua-signal
 Section: lua-signal
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 3900
+Installed-Size: 3901
 Description:  Lua binding to libsignal.

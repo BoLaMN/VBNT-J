@@ -5,5 +5,5 @@ Source: feeds/custo/mappings-wol
 Section: mappings-wol
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 468
+Installed-Size: 472
 Description:  Transformer wol mapping files.

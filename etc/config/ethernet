@@ -27,6 +27,6 @@ config port 'eth4'
 
 config trafficdesc 'shapingconf'
         option mbs '16000'
-        option mbr '100000'
+        option mbr '1000000'
         option enable '1'
 

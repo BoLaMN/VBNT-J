@@ -164,6 +164,19 @@ ngx.print(ui_helper.createMessages(message_helper.popMessages()))
            class ="monitor-ra_enabled monitor-0",
         }
     }
+    local ra_random_class = {
+        group = {
+           class ="monitor-ra_enabled monitor-1",
+        },
+        input = {
+           class = "monitor-changes",
+        }
+    }
+    local ra_psw_class = {
+        group = {
+           class ="monitor-random_psw monitor-0",
+        }
+    }
 
   html[#html + 1] = ui_helper.createCheckboxSwitch(T"Enabled", "ra_enabled", content["ra_enabled"], ra_enable_class)
   if assistant:enabled() then
@@ -189,10 +202,14 @@ ngx.print(ui_helper.createMessages(message_helper.popMessages()))
      html[#html + 1] = ui_helper.createLabel(T"Password", password)
      html[#html + 1] = error and ui_helper.createLabel("Error", error) or ''
   else
-     html[#html + 1] = ui_helper.createCheckboxSwitch(T"Use Random Password", "random_psw", content["random_psw"],ra_cfg_class)
+     html[#html + 1] = ui_helper.createCheckboxSwitch(T"Use Random Password", "random_psw", content["random_psw"],ra_random_class)
      html[#html + 1] = ui_helper.createLabel(T"Use Random Password", checkbox_map[content["random_psw"]],ra_class)
-     html[#html + 1] = ui_helper.createInputText(T"Password", "password", content["password"], ra_cfg_class, helpmsg["password"])
-     html[#html + 1] = ui_helper.createLabel(T"Password", password,ra_class)
+     html[#html + 1] = "<div class='monitor-ra_enabled monitor-1'>"
+     html[#html + 1] = ui_helper.createInputText(T"Password", "password", content["password"], ra_psw_class, helpmsg["password"])
+     html[#html + 1] = "</div>"
+     if content["random_psw"] == "0" then
+       html[#html + 1] = ui_helper.createLabel(T"Password", password,ra_class)
+     end
      html[#html + 1] = ui_helper.createSimpleInputHidden("salt", content["salt"])
      html[#html + 1] = ui_helper.createSimpleInputHidden("verifier", content["verifier"])
   end

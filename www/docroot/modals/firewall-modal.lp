@@ -406,14 +406,14 @@ ngx.print(ui_helper.createMessages(message_helper.popMessages()))
             class = "alert-info monitor-fw_level monitor-lax"
         },
     }
-    html[#html+1] = ui_helper.createAlertBlock(T"In <strong>low mode</strong>, the firewall will allow all outbound connections. It will reject unknown incoming connections but acknowledge the presence of the gateway.", lax_attr)
+    html[#html+1] = ui_helper.createAlertBlock(T"In <strong>low mode</strong>, the firewall will allow all outgoing connections. It will reject unknown incoming connections but acknowledge the presence of the gateway.", lax_attr)
 
     local normal_attr = {
         alert = {
             class = "alert-info monitor-fw_level monitor-normal"
         },
     }
-    html[#html+1] = ui_helper.createAlertBlock(T"In <strong>normal mode</strong>, the firewall will allow all outbount connections. It will silently drop unknown incoming connections.", normal_attr)
+    html[#html+1] = ui_helper.createAlertBlock(T"In <strong>normal mode</strong>, the firewall will allow all outgoing connections. It will silently drop unknown incoming connections.", normal_attr)
 
     local high_attr = {
         alert = {
@@ -427,7 +427,7 @@ ngx.print(ui_helper.createMessages(message_helper.popMessages()))
             class = "alert-info monitor-fw_level monitor-user"
         },
     }
-    html[#html+1] = ui_helper.createAlertBlock(T"In <strong>user mode</strong>, you can configure each individual rule of the firewall as well as the default behavior.", user_attr)
+    html[#html+1] = ui_helper.createAlertBlock(T"In <strong>user defined mode</strong>, you can configure each individual rule of the firewall as well as the default behavior.", user_attr)
 
     ngx.print(html)
   ngx.print('\

@@ -22,7 +22,7 @@ config single_config 'cwmpd_config'
 	list forcedinforms 'Device.Cellular.Interface.1.USIM.IMSI'
 	list forcedinforms 'Device.Services.X_000E50_Internet.WANConnection'
 	list notifications 'Device.Services.X_000E50_Internet.WANConnectionName|Active'
-	option ip_preference 'v4_only'
+	option ip_preference 'prefer_v6'
 	option connectionrequest_throttle_time '5'
 	option connectionrequest_throttle_number '1'
 

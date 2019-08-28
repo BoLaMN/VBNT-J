@@ -15,6 +15,11 @@ check_driver_loaded()
   fi
 }
 
+unload_driver()
+{
+  check_driver_loaded && rmmod nciTMSkmod
+}
+
 #tmsctl 1731/1731-2 start -i <ifname> -a <meg> [-l <megLevel>] -m <local_mepId> [-v <vlan>] [-s ccm [-t <CCMinterval>]] [-r <remote_mepId>]
 start_tmsctl_1731() #sectionname
 {
@@ -193,6 +198,8 @@ start()
     fi
     # config_list_foreach <section> <option> <function>
     config_list_foreach global configurations start_tmsctl
+  else
+    unload_driver
   fi
 }
 
@@ -204,4 +211,5 @@ stop()
   /usr/bin/tmsctl 3ah stop
   /usr/bin/tmsctl 1ag stop
   /usr/bin/tmsctl 1ag-2 stop
+  unload_driver
 }

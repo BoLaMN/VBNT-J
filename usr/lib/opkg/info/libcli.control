@@ -4,7 +4,7 @@ Depends: libc, libssp
 Source: feeds/technicolor/libcli
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 11639
+Installed-Size: 11649
 Description:  Libcli provides a shared library for including a Cisco-like
  command-line interface into other software. It's a telnet
  interface which supports command-line editing, history,

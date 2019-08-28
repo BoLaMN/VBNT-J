@@ -5,5 +5,5 @@ Source: feeds/technicolor/bcm_userspace
 Section: utils
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 3564
+Installed-Size: 3563
 Description:  Technicolor Runner utilities

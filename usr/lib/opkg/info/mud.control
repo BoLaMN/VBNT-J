@@ -5,5 +5,5 @@ Source: feeds/technicolor/mud
 Section: opt
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 23328
+Installed-Size: 23324
 Description:  Meta update daemon for DLNA Digital Media Server

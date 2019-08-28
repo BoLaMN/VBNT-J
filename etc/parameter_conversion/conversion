@@ -93,7 +93,6 @@ uci_set wireless.radio_2G.channel
 uci_set wireless.radio_2G.channelwidth
 uci_set wireless.radio_2G.standard
 uci_set wireless.radio_2G.state
-uci_set wireless.radio_2G.sgi
 uci_set wireless.radio_2G.cdd
 uci_set wireless.radio_2G.tx_power_adjust
 uci_set wireless.radio_2G.stbc

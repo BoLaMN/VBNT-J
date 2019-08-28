@@ -4,4 +4,3 @@
 /bin/opkg install /usr/lib/ipk/Dependencies/*
 /bin/opkg install /usr/lib/ipk/THOR/*
 rm -rf /usr/lib/ipk/thor.tar
-/bin/opkg install /usr/lib/ipk/tls-vsparc*.ipk

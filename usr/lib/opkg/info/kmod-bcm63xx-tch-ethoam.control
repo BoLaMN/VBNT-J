@@ -5,5 +5,5 @@ Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 80317
+Installed-Size: 80316
 Description:  Broadcom ETHOAM driver

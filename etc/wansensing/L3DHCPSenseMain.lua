@@ -43,17 +43,7 @@ function M.check(runtime, l2type, event)
             return "L3Sense"
         else
             local autofailover = x:get("wansensing", "global", "autofailover")
-            if runtime.l3dhcp_failures % 12 == 0 then
-                -- restart dhcp backoff after 1 minute
-                x:set("network", "wan", "auto", "0")
-                x:set("network", "wan6", "auto", "0")
-                x:commit("network")
-                conn:call("network", "reload", { })
-                x:set("network", "wan", "auto", "1")
-                x:set("network", "wan6", "auto", "1")
-                x:commit("network")
-                conn:call("network", "reload", { })
-            elseif autofailover == "1" then
+            if autofailover == "1" then
                 -- enable 3G/4G
                 failoverhelper.mobiled_enable(runtime, "1", "wwan")
             end
